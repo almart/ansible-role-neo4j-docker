@@ -1,6 +1,6 @@
 galaxy_info:
   role_name: neo4j_docker
-  author: Ralph May
+  author: warhorse
   description: Install Neo4j in Docker
   company: Warhorse
 

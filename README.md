@@ -14,6 +14,11 @@ Install Neo4j (Docker)
 
 This role is part of the Warhorse Automation Framework. This role can be used with Warhorse or as a standalone role.
 
+Docker Image
+-------------
+
+[docker-neo4j](https://github.com/neo4j/docker-neo4j)
+
 Role Variables
 --------------
 
