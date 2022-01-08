@@ -1,10 +1,18 @@
 Ansible Cobalt Strike (Docker)
 =========
+[![CI](https://github.com/warhorse/ansible-role-neo4j-docker/workflows/CI/badge.svg?event=push)](https://github.com/warhorse/ansible-role-neo4j-docker/actions?query=workflow%3ACI)
+[![warhorse.neo4j_docker](https://img.shields.io/ansible/role/55904)](https://galaxy.ansible.com/warhorse/neo4j_docker)
+[![warhorse.neo4j_docker](https://img.shields.io/ansible/quality/55904)](https://galaxy.ansible.com/warhorse/neo4j_docker)
+[![warhorse.neo4j_docker](https://img.shields.io/ansible/role/d/55904)](https://galaxy.ansible.com/warhorse/neo4j_docker)
+![License](https://img.shields.io/github/license/warhorse/ansible-role-neo4j-docker)
+![Commit](https://img.shields.io/github/last-commit/warhorse/ansible-role-neo4j-docker)
 
-[![warhorse.neo4j_docker](https://img.shields.io/ansible/role/)](https://galaxy.ansible.com/warhorse/neo4j_docker)
+![Neo4j Logo](./images/neo4j_logo.png "Neo4j Logo")
 
 
 Install Neo4j (Docker)
+
+This role is part of the Warhorse Automation Framework. This role can be used with Warhorse or as a standalone role.
 
 Role Variables
 --------------
@@ -71,7 +79,7 @@ neo4j_ports:
 License
 -------
 
-BSD
+MIT/BSD
 
 Author Information
 ------------------
