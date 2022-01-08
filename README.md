@@ -1,4 +1,4 @@
-Ansible Cobalt Strike (Docker)
+Ansible Neo4j (Docker)
 =========
 [![CI](https://github.com/warhorse/ansible-role-neo4j-docker/workflows/CI/badge.svg?event=push)](https://github.com/warhorse/ansible-role-neo4j-docker/actions?query=workflow%3ACI)
 [![warhorse.neo4j_docker](https://img.shields.io/ansible/role/55904)](https://galaxy.ansible.com/warhorse/neo4j_docker)
