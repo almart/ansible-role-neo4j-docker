@@ -6,6 +6,8 @@ neo4j_docker_version: "latest"
 neo4j_username: "neo4j"
 neo4j_password: "password"
 
+neo4j_memory_size: "1G"
+
 neo4j_docker_labels: {}
 neo4j_docker_image: "neo4j:{{ neo4j_docker_version }}"
 neo4j_docker_network: "neo4j"

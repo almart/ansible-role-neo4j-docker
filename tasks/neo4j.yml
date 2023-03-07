@@ -21,6 +21,8 @@
      - "{{ neo4j_dir }}:{{ neo4j_data_dir }}"
     env:
       NEO4J_AUTH: "{{ neo4j_username }}/{{ neo4j_password }}"
+      NEO4J_server_memory_pagecache_size: "{{ neo4j_memory_size }}"
+      NEO4J_server_memory_heap_max__size: "{{ neo4j_memory_size }}"
     networks:
       - name: '{{ neo4j_docker_network }}'
     purge_networks: true
