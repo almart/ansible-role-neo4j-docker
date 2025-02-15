@@ -1,7 +1,7 @@
 galaxy_info:
   role_name: neo4j_docker
-  author: warhorse
-  description: Install Neo4j in Docker
+  author: almart
+  description: Install Neo4j in Docker - Updated for recent docker
   company: Warhorse
 
   issue_tracker_url: https://github.com/warhorse/ansible-role-neo4j-docker/issues
