@@ -25,4 +25,4 @@
       NEO4J_server_memory_heap_max__size: "{{ neo4j_memory_size }}"
     networks:
       - name: '{{ neo4j_docker_network }}'
-    purge_networks: true
+    networks_cli_compatible: yes
